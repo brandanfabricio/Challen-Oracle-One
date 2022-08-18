@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./estilos.css" >
+    <title>Encriptador</title>
+</head>
+<body>
+
+
+    <div class="contenedor-form">
+        <div  class="contenedor">
+            <h2>Resultado</h2>
+    
+            <div  class="text-resultado">
+                <button class="cerrar">X</button>
+                <div id="resultado" class="span">
+    
+                </div>
+
+              
+    
+            </div>
+            <button id="copiar" class="btn-cop"> copiar</button>
+        </div>
+        <h1>Cifrado de Texto</h1>
+        <form id="cifrado">
+                <textarea name="" id="Texarea" cols="30" rows="10" ></textarea> <br>
+                <label class="titulo" > Selecionar </label> <br>
+                <label for="encriptar">Encriptar</label>
+                <input type="radio" name="cifrar" id="enc" value="encriptar"> 
+                <label for="descriptar">Desencriptar</label>
+                <input type="radio" name="cifrar" id="des" value="descripta"> <br> <br>
+                    <label  class="titulo">Selecionar formato de cifrado</label> <br> 
+                <label for="codigo">Cesar</label>
+                <input type="radio" name="codigo" id="cesar" value="cesar">
+                <label for="codigo">ASCII</label>
+                <input type="radio" name="codigo" id="ascii" value="ascii">
+                <label for="codigo">Alura</label>
+                <input type="radio" name="codigo" id="alura" value="alura">
+
+
+
+
+        </form> <br>
+         <button id="btn">cifrear</button>
+
+    </div>
+
+       
+
+</body>
+<script src="./index.js" type="module"></script>
+</html>
